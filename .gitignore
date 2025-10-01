@@ -1,0 +1,119 @@
+# 深思智聊平台 - Git忽略文件配置
+
+# 环境变量和敏感信息
+.env
+.env.local
+.env.production.local
+*.env
+
+# 数据库文件
+*.db
+*.sqlite
+*.sqlite3
+backend/chatbot.db
+
+# 日志文件
+*.log
+logs/
+backend/logs/
+*.log.*
+
+# 数据目录
+data/
+backups/
+
+# SSL证书
+deploy/ssl/
+*.pem
+*.key
+*.crt
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+.npm
+.eslintcache
+.node_repl_history
+*.tgz
+*.tar.gz
+
+# Vue.js
+dist/
+.nuxt
+.vuepress/dist
+.serverless
+.fusebox/
+.dynamodb/
+.tern-port
+.vscode-test
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Docker
+.dockerignore
+
+# 临时文件
+*.tmp
+*.temp
+temp/
+tmp/
+
+# 压缩包
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# 部署相关临时文件
+chatbot-deploy-*.tar.gz
