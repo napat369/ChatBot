@@ -44,8 +44,8 @@
 ### 1. 克隆项目
 
 ```bash
-git clone https://github.com/your-username/deepsmart-chat.git
-cd deepsmart-chat
+git clone https://github.com/napat369/ChatBot.git
+cd ChatBot
 ```
 
 ### 2. 配置环境变量
@@ -136,7 +136,7 @@ python start.py
 ## 📁 项目结构
 
 ```
-deepsmart-chat/
+ChatBot/
 ├── backend/                 # 后端服务
 │   ├── app/                # 应用代码
 │   ├── Dockerfile          # 后端Docker配置
@@ -216,8 +216,8 @@ free -h && df -h
 
 ## 📞 联系方式
 
-- 项目链接：https://github.com/your-username/deepsmart-chat
-- 问题反馈：https://github.com/your-username/deepsmart-chat/issues
+- 项目链接：https://github.com/napat369/ChatBot
+- 问题反馈：https://github.com/napat369/ChatBot/issues
 
 ## 🙏 致谢
 
